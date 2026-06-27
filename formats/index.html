@@ -17,12 +17,12 @@ permalink: /formats/
             {% for format in site.formats %}
             <a href="{{ format.url | relative_url }}" class="format-card">
                 <div class="format-card-body">
-                    {% if format.label %}
-                    <span class="format-card-label">{{ format.label }}</span>
+                    {% if format.tags %}
+                    <span class="format-card-label">{{ format.tags | join: ", " }}</span>
                     {% endif %}
-                    <h3 class="format-card-title">{{ format.title }}</h3>
-                    {% if format.description %}
-                    <p class="format-card-description">{{ format.description }}</p>
+                    <h3 class="format-card-title">{{ format["format-title"] }}</h3>
+                    {% if format["short-description"] %}
+                    <p class="format-card-description">{{ format["short-description"] }}</p>
                     {% endif %}
                     <span class="format-card-arrow">→</span>
                 </div>

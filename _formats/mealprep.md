@@ -1,37 +1,66 @@
 ---
 layout: format
-title: Community Mealprep
-subtitle: A format for healthy eating, saving money, and building connections.
-description: A group of friends batch-cook meals together weekly — saving money, eating healthier, and building real community in the process.
+format-title: Community Mealprep
+creation-date: 2026-06-27
 image: /img/collective-flourishing.jpg
-label: Food & Community
-id: mealprep
-tags: [food, community]
-
-thrive: "Save money buying ingredients in bulk. Eat healthier with home-cooked meals. Save time with batch cooking. Learn new recipes and techniques from others."
-generalizable: "Less food waste through coordinated shopping. Lower energy use from shared cooking sessions. Reduced packaging from avoiding takeout. No exploitation - just friends cooking together."
-others: "Regular face-to-face connection with your community. Skill sharing between experienced and beginner cooks. Support network for tough weeks. Reduced isolation in urban settings."
+tags: ["food&community"]
+short-description: A group of friends batch-cook meals together weekly — saving money, eating healthier, and building real community in the process.
 ---
 
-Community mealprep is one of the clearest examples of a Mutual Thriving format — an activity that scores a resounding YES on all three decision criteria.
+# Overview
 
-## What is it?
+## Main Idea
 
-A group of friends or community members gather regularly (weekly or bi-weekly) to prepare meals together. Everyone contributes ingredients, time, and effort, and everyone leaves with multiple prepared meals for the week ahead.
+Community mealprep is one of the clearest examples of a Mutual Thriving format — an activity that scores a resounding YES on all three decision criteria. A group of friends or community members gather regularly (weekly or bi-weekly) to prepare meals together. Everyone contributes ingredients, time, and effort, and everyone leaves with multiple prepared meals for the week ahead.
 
-## How to Start
+## Value for the individual
 
-1. **Find your crew** - 4-8 people is ideal. Enough variety, not too chaotic.
-2. **Set a schedule** - Pick a consistent day/time (Sunday afternoons work well)
-3. **Choose a host rotation** - Or find a community kitchen space
-4. **Plan the menu** - Start simple. One main dish plus a grain and vegetables.
-5. **Split the shopping** - Use a shared list, divide and conquer
-6. **Cook together** - Put on music, chat while you chop, enjoy the process
-7. **Divide and store** - Everyone takes home their portions in containers
+Save money buying ingredients in bulk. Eat healthier with home-cooked meals. Save time with batch cooking. Learn new recipes and techniques from others.
 
-## Tips for Success
+## Value for all
 
-- **Dietary flexibility** - Make base dishes that can accommodate different diets
-- **Contribution equity** - Track costs and rotate who buys what
-- **Keep it fun** - This isn't a chore, it's community time
-- **Iterate** - After a few sessions, discuss what's working and what to adjust
+Regular face-to-face connection with your community. Skill sharing between experienced and beginner cooks. A support network for tough weeks. Reduced isolation in urban settings.
+
+## Generalizability
+
+Less food waste through coordinated shopping. Lower energy use from shared cooking sessions. Reduced packaging from avoiding takeout. No exploitation — just friends cooking together.
+
+# Recipe
+
+## Procedure
+
+1. **Cook together** — put on music, chat while you chop, and enjoy the process.
+2. **Divide and store** — everyone takes home their portions in containers.
+
+## Requirements
+
+- A crew of 4–8 people — enough variety, not too chaotic.
+- A kitchen with enough space and equipment to cook as a group.
+- Ingredients for the planned menu.
+- Storage containers so everyone can take their portions home.
+
+### Preparation
+
+- **Set a schedule** — pick a consistent day and time (Sunday afternoons work well).
+- **Choose a host rotation** — or find a community kitchen space.
+- **Plan the menu** — start simple: one main dish plus a grain and vegetables.
+- **Split the shopping** — use a shared list, divide and conquer.
+
+## Available Infrastructure
+
+- Community kitchen in The Fizz Wien Hauptbahnhof (Student Housing) available for implementation in Vienna, up to 8 People
+
+# Helpful further information
+
+- **Dietary flexibility** — make base dishes that can accommodate different diets.
+- **Contribution equity** — track costs and rotate who buys what.
+- **Keep it fun** — this isn't a chore, it's community time.
+- **Iterate** — after a few sessions, discuss what's working and what to adjust.
+
+# Implementations
+
+TBD
+
+# Reviews
+
+TBD

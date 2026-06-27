@@ -42,3 +42,5 @@ exclude:
   - LICENSE
   - READMEs
   - claude.md
+  - _templates
+  - _reference
