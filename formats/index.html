@@ -16,13 +16,6 @@ permalink: /formats/
         <div class="formats-grid">
             {% for format in site.formats %}
             <a href="{{ format.url | relative_url }}" class="format-card">
-                {% if format.image %}
-                <div class="format-card-image">
-                    <img src="{{ format.image | relative_url }}" alt="{{ format.title }}">
-                </div>
-                {% else %}
-                <div class="format-card-image format-card-image--placeholder"></div>
-                {% endif %}
                 <div class="format-card-body">
                     {% if format.label %}
                     <span class="format-card-label">{{ format.label }}</span>
@@ -31,6 +24,7 @@ permalink: /formats/
                     {% if format.description %}
                     <p class="format-card-description">{{ format.description }}</p>
                     {% endif %}
+                    <span class="format-card-arrow">→</span>
                 </div>
             </a>
             {% endfor %}
