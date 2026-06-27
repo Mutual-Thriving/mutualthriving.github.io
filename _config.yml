@@ -36,6 +36,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - DOMAIN_SETUP.md
-  - GOOGLE_FORMS_SETUP.md
   - LICENSE
+  - READMEs
+  - claude.md
