@@ -30,6 +30,9 @@ collections:
   writings:
     output: true
     permalink: /writings/:title/
+  formats:
+    output: true
+    permalink: /formats/:title/
 
 # Exclude from build
 exclude:

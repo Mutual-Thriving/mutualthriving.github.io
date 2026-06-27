@@ -1,0 +1,43 @@
+---
+layout: default
+title: Formats
+description: Activities and practices that help you thrive while contributing to the thriving of others.
+permalink: /formats/
+---
+<section class="formats-header">
+    <div class="container">
+        <h1 class="section-title">Formats</h1>
+        <p class="section-subtitle">Activities and practices that score a YES on all three Mutual Thriving criteria — good for you, good for others, good for the future.</p>
+    </div>
+</section>
+
+<section class="formats-list">
+    <div class="container">
+        <div class="formats-grid">
+            {% for format in site.formats %}
+            <a href="{{ format.url | relative_url }}" class="format-card">
+                {% if format.image %}
+                <div class="format-card-image">
+                    <img src="{{ format.image | relative_url }}" alt="{{ format.title }}">
+                </div>
+                {% else %}
+                <div class="format-card-image format-card-image--placeholder"></div>
+                {% endif %}
+                <div class="format-card-body">
+                    {% if format.label %}
+                    <span class="format-card-label">{{ format.label }}</span>
+                    {% endif %}
+                    <h3 class="format-card-title">{{ format.title }}</h3>
+                    {% if format.description %}
+                    <p class="format-card-description">{{ format.description }}</p>
+                    {% endif %}
+                </div>
+            </a>
+            {% endfor %}
+
+            {% if site.formats.size == 0 %}
+            <p class="no-formats">Formats coming soon! In the meantime, join us on <a href="https://discord.gg/38BadnwC">Discord</a>.</p>
+            {% endif %}
+        </div>
+    </div>
+</section>
