@@ -339,6 +339,16 @@ a.logo:hover {
     justify-content: space-between;
 }
 
+a.what-we-do-card--link {
+    text-decoration: none;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+a.what-we-do-card--link:hover {
+    background: #edf4f0;
+    box-shadow: var(--shadow);
+}
+
 .what-we-do-card h3 {
     color: var(--primary-dark);
     font-size: 1.1rem;
