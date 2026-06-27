@@ -1754,6 +1754,62 @@ button:focus {
     text-align: center;
 }
 
+/* Three YESes criteria cards.
+   Generated from the markdown body sections (## Value for the individual /
+   ## Value for all / ## Generalizability). The selectors target kramdown's
+   auto-generated heading IDs, so the body stays plain markdown (Obsidian-clean)
+   while the site renders the numbered cards from the old layout.
+   Each card = the heading (number badge + title) joined to its following
+   paragraph; clip-path hides the box-shadow seam between the two elements. */
+.format-content h2#value-for-the-individual,
+.format-content h2#value-for-all,
+.format-content h2#generalizability {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin: 2rem 0 0 0;
+    padding: 1.5rem 1.5rem 0.75rem;
+    background-color: var(--bg-white);
+    box-shadow: var(--shadow);
+    border-bottom: none;
+    border-radius: 12px 12px 0 0;
+    clip-path: inset(-12px -12px 0 -12px);
+    font-size: 1.35rem;
+    color: var(--primary-dark);
+}
+
+.format-content h2#value-for-the-individual::before,
+.format-content h2#value-for-all::before,
+.format-content h2#generalizability::before {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.format-content h2#value-for-the-individual::before { content: "1"; }
+.format-content h2#value-for-all::before { content: "2"; }
+.format-content h2#generalizability::before { content: "3"; }
+
+.format-content h2#value-for-the-individual + p,
+.format-content h2#value-for-all + p,
+.format-content h2#generalizability + p {
+    margin: 0 0 2rem 0;
+    padding: 0 1.5rem 1.5rem calc(1.5rem + 50px + 1.25rem);
+    background-color: var(--bg-white);
+    box-shadow: var(--shadow);
+    border-radius: 0 0 12px 12px;
+    clip-path: inset(0 -12px -12px -12px);
+    color: var(--text-gray);
+}
+
 .format-cta {
     margin-top: 3rem;
     padding: 2rem;
@@ -1784,5 +1840,26 @@ button:focus {
 
     .format-content .decision-criteria-detailed {
         padding: 1.5rem;
+    }
+
+    .format-content h2#value-for-the-individual,
+    .format-content h2#value-for-all,
+    .format-content h2#generalizability {
+        font-size: 1.2rem;
+        gap: 1rem;
+    }
+
+    .format-content h2#value-for-the-individual::before,
+    .format-content h2#value-for-all::before,
+    .format-content h2#generalizability::before {
+        width: 40px;
+        height: 40px;
+        font-size: 1.25rem;
+    }
+
+    .format-content h2#value-for-the-individual + p,
+    .format-content h2#value-for-all + p,
+    .format-content h2#generalizability + p {
+        padding-left: 1.5rem;
     }
 }

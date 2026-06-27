@@ -28,42 +28,6 @@ layout: default
         <article class="format-content">
             {{ content }}
 
-            {% if page.thrive or page.generalizable or page.others %}
-            <!-- Three YESes Section -->
-            <div class="decision-criteria-detailed">
-                <h2>The Three YESes</h2>
-                <div class="criteria-list">
-                    {% if page.thrive %}
-                    <div class="criteria-item">
-                        <div class="criteria-number">1</div>
-                        <div class="criteria-content">
-                            <h4>Does it help me thrive?</h4>
-                            <p><strong>YES.</strong> {{ page.thrive }}</p>
-                        </div>
-                    </div>
-                    {% endif %}
-                    {% if page.generalizable %}
-                    <div class="criteria-item">
-                        <div class="criteria-number">2</div>
-                        <div class="criteria-content">
-                            <h4>Is it sustainably generalizable?</h4>
-                            <p><strong>YES.</strong> {{ page.generalizable }}</p>
-                        </div>
-                    </div>
-                    {% endif %}
-                    {% if page.others %}
-                    <div class="criteria-item">
-                        <div class="criteria-number">3</div>
-                        <div class="criteria-content">
-                            <h4>Does it help others thrive?</h4>
-                            <p><strong>YES.</strong> {{ page.others }}</p>
-                        </div>
-                    </div>
-                    {% endif %}
-                </div>
-            </div>
-            {% endif %}
-
             <!-- CTA -->
             <div class="format-cta">
                 <p>Have you tried this format? Share your experience on our <a href="https://discord.gg/38BadnwC" target="_blank">Discord</a>!</p>
